@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>..</title>
+        <meta charset='utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="tcss.css">
+        <link rel="stylesheet" type="text/css" href="simplegrid.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+    <body>
+        
+        <nav id="myHeader"> 
+           
+            <ul>
+                <li class="menu" ><img src="img/menu3.png" alt="menuico"/>
+                    <ul class="submenu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">HTML</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="title">Over The Game</a></li>
+            </ul>
+        </nav>
+        <img src="img/bandeau.jpg" alt="bandeau-index" class="bandeau"/>
+        <header>
+        </header>
+        <main class="grid grid-pad">
+                <div class="col-1-1">
+                        
+                    
+                    <div>
+                        <p>Intro</p>
+                    </div>                   
+                    <div class="titreart">
+                        <h3>Nos Fiches Métiers</h3>
+                    </div>
+                    <div >
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/imgslide1.png" alt="Animateur 2D/3D" title="Animateur 2D/3D" id="wows0_0"/></li>
+		<li><img src="data0/images/imgslide2.png" alt="Graphiste" title="Graphiste" id="wows0_1"/></li>
+		<li><img src="data0/images/imgslide3.jpg" alt="Game Designer" title="Game Designer" id="wows0_2"/></li>
+		<li><img src="data0/images/imgslide4.jpg" alt="Scénariste" title="Scénariste" id="wows0_3"/></li>
+		<li><a href="http://wowslider.net"><img src="data0/images/imgslide5.jpg" alt="css image gallery" title="Community Manager" id="wows0_4"/></a></li>
+		<li><img src="data0/images/imgslide6.jpg" alt="Chef de projet " title="Chef de projet " id="wows0_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Animateur 2D/3D"><span><img src="data0/tooltips/imgslide1.png" alt="Animateur 2D/3D"/>1</span></a>
+		<a href="#" title="Graphiste"><span><img src="data0/tooltips/imgslide2.png" alt="Graphiste"/>2</span></a>
+		<a href="#" title="Game Designer"><span><img src="data0/tooltips/imgslide3.jpg" alt="Game Designer"/>3</span></a>
+		<a href="#" title="Scénariste"><span><img src="data0/tooltips/imgslide4.jpg" alt="Scénariste"/>4</span></a>
+		<a href="#" title="Community Manager"><span><img src="data0/tooltips/imgslide5.jpg" alt="Community Manager"/>5</span></a>
+		<a href="#" title="Chef de projet "><span><img src="data0/tooltips/imgslide6.jpg" alt="Chef de projet "/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+                            
+                             
+                    </div>
+      
+                    <div class="titreart">
+                        <h3>Nos Fiches Formations</h3>
+                    </div>
+                    <div>
+                    
+                    </div>
+        </main>
+        <footer class="pieddepage">
+            <div class="grid grid-pad">
+                    <a class="textf">A Propos</a>
+                    <p class="textf">Site réalisé dans le cadre du PPP.</p>
+                    <p class="textf">OTG:L'information pour les articles de demain !</p>
+                    <p class="textf">@2018 OTG TDR</p>
+
+            </div>
+            
+        </footer>
+    </body>
+</html>
+<script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+        
